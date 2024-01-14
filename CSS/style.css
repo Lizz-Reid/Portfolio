@@ -1,0 +1,836 @@
+body {
+    background-color: #FFF2F2;
+    font-family: 'lora, serif';
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 96.4%;
+    margin-left: 1.8%;
+    align-items: center;
+    height: 60px;
+}
+
+.logo {
+    width: 52px;
+    height: 52px;
+    padding: 1%;
+    text-align: center;
+}
+
+.inline-block {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+}
+
+.options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: none;
+}
+.options b {
+    padding-left: 60px;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    font-style: bold;
+    cursor: pointer;
+  }
+.navigation h4 {
+    width: 50%;
+    font-size: 32px;
+    color: #870A30;
+    font-family: 'lora';
+    cursor:pointer;
+}
+
+
+.options {
+    display: flex;
+    flex-direction: row;
+    color: #870A30; 
+    align-items: right;
+    
+}
+
+.list {
+    width: 30%;
+    margin-left: auto;
+    list-style-type: none;
+}
+
+/*Hero section*/
+
+.heroImg {
+    height: 680px;
+    display: grid;
+    justify-content: center;
+}
+
+.content {
+    display: grid;
+    z-index: 100;
+    position: absolute;
+    box-shadow: 5px 5px 5px rgb(72, 72, 72, 0.6);
+    width: 320px;
+    height: 140px;
+    margin-left: 48%;
+    top: 440px;
+    background-color: #FAD2E0; 
+    background-image: url("/Images/Pattern.png");
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 18% 82%;
+    grid-template-areas: 
+        "emailIimg email"
+        "phoneImg phone"
+        "linkImg link";
+
+}
+
+.emailImg, .phoneImg, .linkImg {
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    padding-left: 18px;
+}
+
+
+.email {
+    font-size: 16px;
+    font-family: 'lato'; 
+    padding-left: 10px;  
+}
+
+.phone {
+    font-size: 16px;
+    font-family: 'lato';
+    padding-left: 10px;  
+}
+
+.link {
+    font-size: 16px;
+    font-family: 'lato';
+    padding-left: 10px;  
+}
+
+.content p {
+    margin-top: 14px;
+    margin-bottom: 16px;
+}
+
+
+.selfiebox {
+    z-index: -1;
+    margin-top: -55%;
+    margin-left: 4%;
+} 
+
+.role {
+    font-size: 80px;
+    font-family: 'Lora', serif;
+    margin-left: 228px;
+    font-style: italic;
+    height: 100px;
+    color: #870A30;
+    margin-bottom: 0%;
+
+}
+
+.designValue {
+    display: flex;
+    font-size: 80px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    padding-left: 62%;
+    height: 100px;
+    color: #FFF2F2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #870A30;
+    margin-top: -10px;
+}
+
+.rolebox b {
+    padding-bottom: 1px;
+}
+
+.colourBlock {
+    position: absolute;
+    left: 0;
+    top: 450px;
+    width: 100%;
+    height: 250px;
+    background-color: #BB2251;
+    z-index: -10;
+  }
+
+
+
+/*About Me section*/
+
+#about {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    margin-top: -50px;
+}
+
+
+#about p {
+    font-size: 16px;
+    font-family: 'Lato';
+    }
+
+.tools p {
+    text-align: center;
+}
+.tools ul {
+    font-size: 16px;
+    font-family: 'Lato';
+    padding-left: 84px;
+}
+.intro {
+    width: 30%;
+    margin-top: 100px;
+}
+
+.tools {
+    width: 417px;
+    background-color: #FAD2E0;
+    box-shadow: 5px 5px 5px rgb(72, 72, 72, 0.6);
+    margin-left: 10%;
+    margin-top: 100px;
+    height: 450px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    margin: 0%;
+    width: 450px;
+    padding: 0%;
+    color: #870A30;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-align: center;
+    color: #870A30;
+}
+/*Skills*/
+
+#skills {
+    height: 580px;
+    margin-top: 0%;
+    background-image: url("/Images/Pattern.png");
+}
+
+.skillsBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.skill1, .skill2, .skill3 {
+    font-family: 'lato';
+    width: 295px;
+}
+.skillsBlock p {
+    text-align: left;
+    margin: 0%;
+    font-family: 'lato';
+    font-size: 20px;
+}
+
+.skill1 {
+    padding-left: 120px;
+}
+
+.skill3 {
+    padding-right: 120px;
+}
+#skills h2 {
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0%;
+    margin-left: 155px;
+}
+
+#skills h4 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    width: 80px;
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+.downArrow {
+    display: none;
+}
+#mobileSkills {
+    display: none;
+}
+/*Projects*/
+
+.projects {
+    display: flex;
+    height: 720px;
+ 
+}
+
+.projectBox {
+    min-width: 700px;
+    width: 50%;
+    height: 500px;
+    justify-content: center;
+    padding-top: 8%;
+    display: grid;
+    grid-template-rows: 10% 23% 10% 23% 10% 23% ; 
+    grid-template-columns: 3% 30% 67%; 
+    z-index: 100;
+ 
+  }
+  
+  .projects h2 {
+    text-align: left;
+    margin-left: 155px;
+    margin-right: 2%;
+    
+  }
+
+  .colourBlock2 {
+    display: flex;
+    position: absolute;
+    margin-top: 520px;
+    width: 100%;
+    height: 250px;
+    background-color: #BB2251;
+    z-index: -10;
+} 
+  /*item list*/
+
+  .p1colourBlock {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+  }
+  .p1Img {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+  }
+  .p1H {
+    grid-row: 1 / 2; 
+    grid-column: 3 / 4; 
+  }
+  .p1P {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+  }
+  .p2colourBlock {
+    grid-row: 3 / 5;
+    grid-column: 1 / 2;
+  }
+  .p2Img {
+    grid-row: 3 / 5;
+    grid-column: 2 / 3;
+  }
+  .p2H {
+    grid-row: 3 / 4; 
+    grid-column: 3 / 4; 
+  }
+  .p2P {
+    grid-row: 4 / 5;
+    grid-column: 3 / 4;
+  }
+  .p3colourBlock {
+    grid-row: 5 / 7;
+    grid-column: 1 / 2;
+  }
+  .p3Img {
+    grid-row: 5 / 7;
+    grid-column: 2 / 3;
+  }
+  .p3H {
+    grid-row: 5 / 6; 
+    grid-column: 3 / 4; 
+  }
+  .p3P {
+    grid-row: 6 / 7;
+    grid-column: 3 / 4;
+  }
+
+.p1Img, .p2Img, .p3Img {
+    height: auto;
+    margin-bottom: 4px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.p1H, .p2H, .p3H {
+    height: auto;
+    margin-top: 0px;
+    font-family: 'lora';
+    font-size: 16px;
+    margin-left: 20px;
+}
+.p1P, .p2P, .p3P {
+    height: auto;
+    width: 97%;
+    text-align: left;
+    font-family: 'lato';
+    font-size: 16px;
+    margin-left: 20px;
+}
+.p1I, .p2I, .p3I {
+    height: 161px;
+    
+}
+.p1colourBlock, .p2colourBlock, .p3colourBlock {
+    margin-bottom: 4px;
+    background-color: #FAD2E0;
+}
+
+#cardSlide {
+    display: none;
+} 
+
+/*footer*/
+#foot{
+    display: grid;
+    width: 100%;
+    height: 120px;
+    padding-top: 80px;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: 
+        "f1 f2 f2"
+        "f3 f4 f4"
+        "f5 f6 f6"
+        "f7 f7 f8";
+}
+
+
+    /*item list*/
+.f1 {
+    grid-area: f1;
+    margin-left: 30%;
+}
+
+.f2 {
+    grid-area: f2;
+}
+
+.f3 {
+    grid-area: f3;
+    margin-left: 30%;
+}
+
+.f4 {
+    grid-area: f4;
+}
+
+.f5 {
+    grid-area: f5;
+    margin-left: 30%;
+}
+
+.f6 {
+    grid-area: f6;
+}
+
+.f7 {
+    grid-area: f7;
+    margin-left: 15%;
+
+}
+
+.f8 {
+    grid-area: f8;
+    padding-bottom: 70px;
+    text-align: right;
+    font-family: 'lato';
+    font-size: 14x;
+    margin-right: 30%;
+}
+
+.f1, .f2, .f3, .f4, .f5, .f6, .f7 {
+    text-align: left;
+    padding-bottom: 70px;
+    font-family: 'lato';
+    font-size: 18px;
+}
+
+
+/*Mobile*/
+
+@media only screen and (max-width: 700px) {
+    
+    body {
+
+    }
+
+    .menu {
+        display: flex;
+        width: 30px;
+        padding-right: 10px;
+    }
+
+    .logo {
+        transform: scale(0.8);
+        padding: 1%;
+        text-align: center;
+    }
+        
+    .options b {
+        display: none;
+      }
+    .navigation h4 {
+        font-size: 20px;
+    }
+    .selfiebox {
+        margin-left: -120px;
+        margin-top: -100px;
+        transform: scale(0.5);
+    }
+
+    .content {
+        margin-top: -160px;
+        margin-left: 50%;
+        width: 40%;
+        background-image: none;
+        background-color: rgb(72, 72, 72, 0.0);
+        box-shadow: none;
+        grid-template-rows: 1fr;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-areas: 
+            "email phone link";
+    }
+    .content p {
+        display: none;
+    }
+    .emailImg, .phoneImg, .linkImg {
+        width: 60px;
+        height: 60px;
+        padding: 6px;
+    }
+
+    .rolebox {
+        display: flex;
+        flex-direction: column;
+        z-index: 100;
+        position: absolute;
+        margin-left: 10%;
+        width: 80%;
+    }
+    .heroImg {
+        height: 300px;
+        padding-top: 1%; 
+    }
+    
+    .role {
+        font-size: 28px;
+        margin-left: 148px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    
+    .designValue {
+        font-size: 28px;
+        padding-left: 270px;
+        height: 60px;
+        margin-top: -20px;
+    }
+    .colourBlock {
+        height: 64px;
+        margin-top: -140px;
+    }
+/*About Me section*/
+    #about {
+        height: 430px;
+        width: 100%;
+        margin-top: -10%;
+    }
+    .tools {
+        width: 500px;
+        margin-right: 1px;
+        margin-left: 15px;
+        margin-top: 100px;
+        height: 300px;
+    }
+    .tools p {
+        font-size: 12px;
+    }
+    .tools ul {
+        font-size: 12px;
+        padding-left: 15%;
+    }
+    h1 {
+        font-size: 28px;
+        margin-top: 1px;
+        width: 450px;
+        padding: 0%;
+    }
+
+    .intro1 {
+        margin-left: 80px;
+        margin-top: -37px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .intro {
+        width: 290px;
+        padding-left: 10px;
+        margin-top: 100px;
+    }
+    .intro p {
+        font-size: 12px;
+    }
+    /*Skills*/
+    #skills {
+        height: 220px;
+        margin-top: 0%;
+    }
+    
+    .skillsBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 300px;
+    }
+    
+    .skill1, .skill2, .skill3 {
+        width: 80%;
+        padding-left: 10px;
+        padding-right: 0px;
+        margin-left: 10px;
+        height: 34px;
+        background-color: #BB2251;
+        border-radius: 0px 15px 15px 0px ;
+        margin-top: -150px;
+    }
+    .skillsBlock p {
+        display: none;
+    }
+
+    #skills h2 {
+        text-align: left;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        margin-bottom: 0%;
+        margin-left: 10px;
+    }
+    
+    #skills h4 {
+        width: 300px;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0px;
+        color: white;
+    }
+    .downArrow {
+        z-index: 100;
+        display: flex;
+        margin-top: -68px;
+        margin-left: 90%;
+    }
+   
+    /*Projects*/
+
+    .projects {
+        display: none;
+        height: 800px;
+        width: 100%;
+    }
+    
+    #cardSlide {
+        display: block;
+        height: 480px;
+        margin-top: -60px;
+   
+      
+    }
+    
+    .slideshow-container h6 {
+        text-align: left;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        margin-bottom: 5%;
+        margin-left: 10px;
+        font-size: 28px;
+        font-family: 'lora';
+        color: #870A30;
+    }
+ 
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+    
+        }
+        
+        .mySlides {
+          display: none;
+          background-color: #FAD2E0;
+          background-image: url("/Images/Pattern.png");
+          width: 245px;
+          height: 318px;
+          margin-left: 29%;
+          border-radius: 15px 15px 15px 15px ;
+        }
+    
+        #cardSlide .colourBlock2 {
+            height: 80px;
+            margin-top: -70px;
+            width: 98%;
+    
+        }
+    
+    .pImage1, .pImage2, .pImage3 {
+        height: 134px;
+        margin-left: 8%;
+        width: 208px;
+        margin-top: 20px;
+        background-color: white;
+        box-shadow: inset 0px 15px 20px 0px rgba(0,0,0,0.2);
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+        z-index: 100;
+      cursor: pointer;
+      position: absolute;
+      /* top: 50%; */
+      margin-top: -200px;
+      width: auto;
+      /* margin-top: -22px; */
+      padding: 16px;
+      color: #870A30;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+  
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+
+    .prev:hover, .next:hover {
+      background-color: #FAD2E0;
+    }
+    
+
+    .text {
+      color: #000000;
+      font-size: 12px;
+      font-family: 'lato';
+      padding: 1px 12px;
+      bottom: 8px;
+      width: 92%;
+      text-align: left;
+    }
+    
+
+    .titleText {
+        color: #000000;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: 'lora';
+        padding: 8px 12px;
+        width: 90%;
+        text-align: left;
+     
+    }
+    
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #FAD2E0;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #870A30;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+/*footer*/
+#foot{
+    display: grid;
+    margin-top: -20%;
+    width: 100.2%;
+    height: 155px;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+        "f1 f3"
+        "f5 f7"
+        "f8 f8";
+   
+}
+
+    /*item list*/
+
+.f2, .f4, .f6  {
+    display: none;
+}
+
+ .f8 {
+    padding-bottom: 20px;
+    text-align: right;
+    width: 100%;
+    font-size: 14px;
+    background-color: #870A30;
+    border-color: #BB2251;
+    border-style: solid;
+    border-width: 2px;
+    height: 10px !important;
+}   
+
+.f1, .f3, .f5, .f7 {
+    text-align: center;
+    font-size: 16px;
+    background-color: #870A30;
+    width: 100%;
+    padding-top: 10px;
+    margin-left: 0px;
+    border-color: #BB2251;
+    border-style: solid;
+    border-width: 2px;
+}
+}
