@@ -605,30 +605,48 @@ h2 {
     }
     /*Skills*/
     #skills {
-        height: 220px;
+        display: block;
+        height: auto;
         margin-top: 0%;
     }
     
     .skillsBlock {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        height: 300px;
+        display: block;
+        /* flex-direction: column;
+        justify-content: space-evenly; */
+        height: auto;
+     
     }
     
     .skill1, .skill2, .skill3 {
-        width: 80%;
+       display: inline-block;
+        width: 410px;
         padding-left: 10px;
         padding-right: 0px;
-        margin-left: 10px;
-        height: 34px;
+        height: 30px;
+        padding-bottom: 10px;
         background-color: #BB2251;
         border-radius: 0px 15px 15px 0px ;
-        margin-top: -150px;
     }
-    .skillsBlock p {
-        display: none;
+
+    
+    .skill2 {
+        margin-top: -20px;
     }
+    .skill3 {
+        margin-top: -20px;
+    }
+
+#skills p {
+  
+    font-size: 16px;
+    margin-top: 0%;
+ 
+    height: 70px;
+   
+  
+ 
+}
 
     #skills h2 {
         text-align: left;
@@ -639,6 +657,7 @@ h2 {
     }
     
     #skills h4 {
+        position: relative;
         width: 300px;
         font-size: 20px;
         text-align: left;
@@ -651,6 +670,29 @@ h2 {
         margin-top: -68px;
         margin-left: 90%;
     }
+    .accordion-content {
+        max-height: 0; /* Set a default max-height, but don't display it */
+        overflow: hidden; /* Hide the content */
+        transition: max-height 0.4s ease-out; /* Add a transition effect when sliding down (and up) the content */
+        padding: 0 1em;
+      }
+      .accordion-content.active {
+        max-height: auto; /* Adjust as needed */
+      }
+      
+      /*adding the + and - signs*/
+          
+      .accordion-item h4::before {
+        content: "+";
+        position: absolute;
+        padding-top: 4px;
+        right: -80px; /* Adjust as needed */
+      }
+      
+      .accordion-item.active h4::before {
+        content: "-";
+      }
+      
    
     /*Projects*/
 
@@ -692,7 +734,8 @@ h2 {
           background-image: url("/Images/Pattern.png");
           width: 245px;
           height: 318px;
-          margin-left: 29%;
+          margin-left: 27%;
+      
           border-radius: 15px 15px 15px 15px ;
         }
     
@@ -740,7 +783,9 @@ h2 {
       background-color: #FAD2E0;
     }
     
-
+    .mySlides:hover {
+        background-color: #870A30;
+    }
     .text {
       color: #000000;
       font-size: 12px;
