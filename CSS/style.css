@@ -706,7 +706,7 @@ h2 {
       
           
       .accordion-item h4::before {
-        content: url("/Images/arrow-down.png");
+        content: url("../Images/arrow-down.png");
         font-size: 20px;
         position: absolute;
         bottom: -15px;
@@ -714,7 +714,7 @@ h2 {
       }
       
       .accordion-item.active h4::before {
-        content: url("/Images/arrow-up.png");
+        content: url("../Images/arrow-up.png");
       }
       
    
