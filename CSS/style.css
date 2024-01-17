@@ -244,7 +244,7 @@ h2 {
 /*Skills*/
 
 #skills {
-    height: 580px;
+    height: 540px;
     margin-top: 0%;
     background-image: url("../Images/Pattern.png");
 }
@@ -253,7 +253,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 300px;
+    height: 280px;
 }
 
 .skill1, .skill2, .skill3 {
@@ -264,7 +264,7 @@ h2 {
     text-align: left;
     margin: 0%;
     font-family: 'lato';
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .skill1 {
@@ -615,6 +615,11 @@ h2 {
         font-size: 24px;
         text-align: center;
     }
+
+    .tools p {
+        font-size: 14px !important;
+      
+    }
     .intro {
         width: 290px;
         padding-left: 10px;
@@ -703,13 +708,13 @@ h2 {
         margin-left: 90%;
     }
     .accordion-content {
-        max-height: 0; /* Set a default max-height, but don't display it */
-        overflow: hidden; /* Hide the content */
-        transition: max-height 0.4s ease-out; /* Add a transition effect when sliding down (and up) the content */
+        max-height: 0; 
+        overflow: hidden; 
+        transition: max-height 0.4s ease-out; 
         padding: 0 1em;
       }
       .accordion-content.active {
-        max-height: auto; /* Adjust as needed */
+        max-height: auto; 
       }
       
       
