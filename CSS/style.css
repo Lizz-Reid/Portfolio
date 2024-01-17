@@ -89,7 +89,7 @@ body {
     margin-left: 48%;
     top: 440px;
     background-color: #FAD2E0; 
-    background-image: url("/Images/Pattern.png");
+    background-image: url("../Images/Pattern.png");
     grid-template-rows: 33% 33% 33%;
     grid-template-columns: 18% 82%;
     grid-template-areas: 
