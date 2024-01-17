@@ -243,7 +243,7 @@ h2 {
 #skills {
     height: 580px;
     margin-top: 0%;
-    background-image: url("../Images/editMe.png");
+    background-image: url("../Images/Pattern.png");
 }
 
 .skillsBlock {
@@ -757,7 +757,7 @@ h2 {
         .mySlides {
           display: none;
           background-color: #FAD2E0;
-          background-image: url("/Images/Pattern.png");
+          background-image: url("../Images/Pattern.png");
           width: 245px;
           height: 318px;
           margin-left: 110px;
