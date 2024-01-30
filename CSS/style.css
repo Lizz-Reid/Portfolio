@@ -66,7 +66,6 @@ body {
     height: 680px;
     display: grid;
     justify-content: center;
-    po
 }
 
 .content {
@@ -190,17 +189,20 @@ body {
     width: 100%;
     margin-top: -50px;
     height: 600px;
+    
 }
 
 
-#about p {
+.intro p {
     font-size: 16px;
     font-family: 'Lato';
-    min-width: 450px;
+    /* width: 500px; */
     }
 
 .tools p {
     text-align: center;
+    font-size: 16px;
+    font-family: 'Lato';
 }
 .tools ul {
     font-size: 16px;
@@ -208,8 +210,9 @@ body {
     padding-left: 84px;
 }
 .intro {
-    width: 30%;
+    width: 40%;
     margin-top: 100px;
+ 
 }
 
 .tools {
@@ -255,7 +258,7 @@ h2 {
 
 }
 
-.skill1, .skill2, .skill3 {
+#skill1, .skill2, .skill3 {
     font-family: 'lato';
     width: 295px;
 }
@@ -526,7 +529,6 @@ h2 {
     
     .navbar-collapse {
         z-index: 999 !important;
-        background-color: aqua;
     }
 
 
@@ -597,29 +599,35 @@ h2 {
         margin-top: -10%;
     }
     .tools {
-        width: 500px;
-        margin-right: 1px;
-        margin-left: 15px;
+        width: 180px;
+        margin-left: 5px;
         margin-top: 100px;
         height: 300px;
+  
     }
     .tools p {
-        font-size: 12px;
+        display: flex;
+        font-size: 12px !important;
+        padding-left: 2%;
+        height: 40px;
+        width: 98%;
     }
     .tools ul {
         font-size: 12px;
         padding-left: 15%;
+        margin-top: -5px;
     }
     h1 {
         font-size: 28px;
         margin-top: 1px;
-        width: 450px;
+        width: 80px;
         padding: 0%;
     }
 
     .intro1 {
         margin-left: 80px;
-        margin-top: -37px;
+        margin-top: -33px;
+        width: 200px;
     }
     
     h2 {
@@ -635,9 +643,12 @@ h2 {
         width: 290px;
         padding-left: 10px;
         margin-top: 100px;
+        
     }
     .intro p {
         font-size: 12px;
+        padding-top: 20px;
+
     }
     /*Skills*/
     #skills {
@@ -648,13 +659,12 @@ h2 {
     
     .skillsBlock {
         display: block;
-        /* flex-direction: column;
+         /* flex-direction: column;
         justify-content: space-evenly; */
         height: auto;
-     
     }
     
-    .skill1, .skill2, .skill3 {
+    #skill1, .skill2, .skill3 {
        display: inline-block;
         width: 410px;
         padding-left: 10px;
@@ -673,25 +683,27 @@ h2 {
         margin-top: -20px;
     }
 
-    .skill1 p {
+    #skill1 .pTop {
     font-size: 14px;
-    height: 70px;
-    margin-bottom: -20px;
+    height: 40px;
+    margin-bottom: 10px;
     }
     .skill2 p {
     font-size: 14px;
-    height: 60px;
+    height: 50px;
     margin-bottom: -15px;
     }
     .skill3 p {
         font-size: 14px;
         height: 80px;
         margin-bottom: -10px;
+        padding-top: -10px;
     }
 
     .pBot {
-        font-size: 14px;
-        padding-bottom: 30px;
+        font-size: 14px !important;
+        height: 40px;
+        margin-bottom: 10px !important;
     }
   
 
@@ -711,6 +723,7 @@ h2 {
         margin-top: 0px;
         color: white;
         padding-top: 6px;
+        margin-bottom: 20px;
     }
     .downArrow {
         z-index: 100;
@@ -730,7 +743,7 @@ h2 {
       
       
           
-      .accordion-item h4::before {
+      .accordion-iteml h4::before {
         content: url("../Images/arrow-down.png");
         font-size: 20px;
         position: absolute;
@@ -738,7 +751,7 @@ h2 {
         right: -95px; /* Adjust as needed */
       }
       
-      .accordion-item.active h4::before {
+      .accordion-iteml.active h4::before {
         content: url("../Images/arrow-up.png");
       }
       
@@ -747,17 +760,16 @@ h2 {
 
     .projects {
         display: none;
-        height: 800px;
-    
+        height: 700px;
         width: 100%;
-       
     }
     
+
     #cardSlidel {
         display: block;
-        height: 500px;
-        margin-top: -60px;
-        background-color: aqua;       
+        height: 455px;
+        margin-top: 0px;
+     
    
       
     }
@@ -768,10 +780,13 @@ h2 {
         padding-bottom: 14px;
         margin-bottom: 5%;
         margin-left: 10px;
-        font-size: 28px;
+        font-size: 24px;
         font-family: 'lora';
         color: #870A30;
+        font-weight: bold;
+        font-style: italic;
     }
+
  
         .slideshow-containerA {
           max-width: 1000px;
@@ -786,14 +801,14 @@ h2 {
             background-image: url("../Images/Pattern.png");
             width: 245px;
             height: 318px;
-            margin-left: 110px;
+            margin-left: 120px;
             border-radius: 15px 15px 15px 15px;
         }
     
         #cardSlidel .colourBlock2 {
             height: 80px;
             margin-top: -70px;
-            width: 98%;
+            width: 100%;
     
         }
     
@@ -821,6 +836,7 @@ h2 {
       transition: 0.6s ease;
       border-radius: 0 3px 3px 0;
       user-select: none;
+      text-decoration: none;
     }
   
     .next {
@@ -891,16 +907,15 @@ h2 {
 /*footer*/
 #foot{
     display: grid;
-    margin-top: -20%;
     width: 100.6%;
-    height: 185px;
+    height: 165px;
     grid-template-rows: 33% 33% 33%;
     grid-template-columns: 50% 50%;
     grid-template-areas: 
         "f1 f3"
         "f5 f7"
         "f8 f8";
-   
+   padding-top: 1px;
 }
 
     /*item list*/
@@ -912,7 +927,7 @@ h2 {
  .f8 {
     padding-bottom: 20px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
     width: 100%;
     font-size: 16px;
     background-color: #870A30;

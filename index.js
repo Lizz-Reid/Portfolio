@@ -29,7 +29,7 @@ function showSlides(n) {
 
 // skills
 
-document.querySelectorAll('.accordion-item h4').forEach((accordionToggle) => { 
+document.querySelectorAll('.accordion-iteml h4').forEach((accordionToggle) => { 
   accordionToggle.addEventListener('click', () => { 
   const accordionItem = accordionToggle.parentNode; 
   const accordionContent = accordionToggle.nextElementSibling; 
